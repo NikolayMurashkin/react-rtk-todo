@@ -1,0 +1,38 @@
+.input-title {
+    background-color: #69A0F3;
+    width: 256px;
+    height: 74px;
+    border-radius: 90px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ECECEC;
+    display: flex;
+    padding: 30px;
+}
+
+.input-title::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #ECECEC;
+}
+
+.input-title__label {
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+
+.input-title__label:before {
+    content: '';
+    position: absolute;
+    width: 196px;
+    height: 2px;
+    background-color: #ECECEC;
+    bottom: 20px;
+    left: 30px;
+    display: block;
+}
+
+
+

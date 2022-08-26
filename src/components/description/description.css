@@ -1,0 +1,38 @@
+.description {
+    display: flex;
+    gap: 12px;
+}
+
+.description__label {
+    width: 100px;
+    height: 73px;
+    background: #69A0F3;
+    border-radius: 35px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ECECEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description__input {
+    width: 236px;
+    height: 73px;
+    background: #FFFFFF;
+    border: 1px solid #69A0F3;
+    border-radius: 24px;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    resize: none;
+    padding: 10px 15px;
+}
+
+.description__input::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}

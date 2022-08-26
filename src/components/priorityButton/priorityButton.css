@@ -1,0 +1,16 @@
+.button {
+    width: 76px;
+    height: 43px;
+    border-radius: 37px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ECECEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.label:hover {
+    color: #666;
+}
