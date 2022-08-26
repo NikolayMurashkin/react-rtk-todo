@@ -4,7 +4,7 @@ import Form from "./components/form/Form";
 import {useSelector} from "react-redux";
 
 function App() {
-    const todos = useSelector(state => state.todos);
+    const todos = useSelector(state => state.todos.todos);
 
     return (
         <div className="App">
