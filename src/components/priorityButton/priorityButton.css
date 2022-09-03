@@ -1,4 +1,25 @@
 .button {
+    display: none;
+
+}
+
+.label:hover {
+    color: darkblue;
+}
+
+.button:checked + .low {
+    box-shadow: 0 5px 10px rgba(51, 252, 18, 0.7);
+}
+
+.button:checked + .medium {
+    box-shadow: 0 5px 10px rgba(255, 205, 6, 0.7);
+}
+
+.button:checked + .high {
+    box-shadow: 0 5px 10px rgba(204, 51, 0, 0.7);
+}
+
+.label {
     width: 76px;
     height: 43px;
     border-radius: 37px;
@@ -9,8 +30,5 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-}
-
-.label:hover {
-    color: #666;
+    transition: all 0.3s ease;
 }
