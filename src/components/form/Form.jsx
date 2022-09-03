@@ -30,17 +30,23 @@ const Form = () => {
             <div className='priority'>
                 <div className="priority__label">Priority:</div>
                 <PriorityButton
-                    setPriority={setPriority}
-                    color='#339900'
-                    text='Low'/>
-                <PriorityButton
-                    setPriority={setPriority}
-                    color='#FFCD06'
-                    text='Medium'/>
-                <PriorityButton
-                    setPriority={setPriority}
-                    color='#CC3300'
-                    text='High'/>
+                handleClick={(e) => setPriority(e.currentTarget.value)}
+                priority={priority}
+                color={'#339900'}
+                text={'Low'}
+            />
+            <PriorityButton
+                handleClick={(e) => setPriority(e.currentTarget.value)}
+                priority={priority}
+                color={'#FFCD06'}
+                text={'Medium'}
+            />
+            <PriorityButton
+                handleClick={(e) => setPriority(e.currentTarget.value)}
+                priority={priority}
+                color={'#CC3300'}
+                text={'High'}
+            />
             </div>
             <Description description={description} setDescription={setDescription}/>
         </form>
